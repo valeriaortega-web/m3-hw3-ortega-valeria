@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-image: url('watercolor.png');
+  background-repeat: repeat;
+  color: #333;
+}
+
+header {
+  background-color: white;
+  color: purple;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.2rem;
+  color: purple;
+}
+
+nav a {
+  color: purple;
+  margin-left: 20px;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.2rem;
+}
+
+main {
+  flex: 1;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+
+  display: flex;
+  gap: 20px;
+}
+
+#about {
+  background-color: white;
+  padding: 20px;
+  flex: 3;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#about h2 {
+  font-family: 'Brush Script MT', cursive;
+  color: purple;
+  margin-top: 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+#about img {
+  float: left;
+  width: 150px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+aside {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+aside h3 {
+  font-family: 'Brush Script MT', cursive;
+  color: purple;
+  margin-top: 0;
+}
+
+aside ul {
+  display: flex;
+  gap: 15px;
+}
+
+aside li {
+  margin: 0; /* remove vertical spacing */
+}
+
+aside a {
+  display: flex;
+  flex-direction: column; /* icon on top, text under */
+  align-items: center;
+  gap: 4px;
+}
+
+aside a img {
+  width: 50px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
