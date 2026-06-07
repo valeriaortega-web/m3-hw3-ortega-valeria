@@ -37,7 +37,7 @@ header h1 {
   background-color: rgb(208, 202, 202);
   padding: 20px 50px;
   float: left;
-  width: 60%;
+  width: 50%;
 }
 
 #about h2 {
@@ -60,7 +60,7 @@ aside {
   background-color: rgb(208, 202, 202);
   padding: 20px;
   float: right;
-  width: 35%;
+  width: 30%;
 }
 
 aside h3 {
