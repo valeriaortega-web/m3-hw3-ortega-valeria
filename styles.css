@@ -1,7 +1,7 @@
 body {
   background-image: url('watercolor.png');
   color: black;
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
   padding: 20px 50px;
   font-family: Arial, sans-serif;
@@ -60,7 +60,7 @@ aside {
   background-color: rgb(208, 202, 202);
   padding: 20px;
   float: right;
-  width: 30%;
+  width: 25%;
 }
 
 aside h3 {
